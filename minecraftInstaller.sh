@@ -25,5 +25,5 @@ sudo wget -q -O /usr/share/applications/Minecraft.desktop https://raw.githubuser
 echo "Downloading executables"
 sudo wget -q -O /usr/bin/minecraft https://raw.githubusercontent.com/keith-ferney/MinecraftScript/master/minecraft
 sudo wget -q -O /usr/bin/minecraft_server https://raw.githubusercontent.com/keith-ferney/MinecraftScript/master/minecraft_server 
-sudo chmod +x /bin/minecraft_server
-sudo chmod +x /bin/minecraft
+sudo chmod +x /usr/bin/minecraft_server
+sudo chmod +x /usr/bin/minecraft
