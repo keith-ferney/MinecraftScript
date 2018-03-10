@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Minecraft
+Keywords=game;3d;block;
+Exec=minecraft
+Icon=/opt/minecraft/minecraft.png
+Terminal=false
+Type=Application
+Actions=Window;

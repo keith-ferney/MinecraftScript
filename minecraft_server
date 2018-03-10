@@ -1,0 +1,4 @@
+#!/bin/bash
+# java -Xmx1024M -Xmx1024M -jar minecraft_server*.jar nogui
+export LD_LIBRARY_PATH="/usr/lib/jvm/java-7-oracle/jre/lib/i386/"
+java -jar /opt/minecraft/minecraft_server*.jar
