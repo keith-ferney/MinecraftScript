@@ -1,9 +1,13 @@
 # MinecraftScript
 
 ## dependencies  
+
   curl
+
   default-jdk
+
   default-jre
+
 on ubuntu you can run
 
 ```sudo apt install curl default-jdk default-jre```
