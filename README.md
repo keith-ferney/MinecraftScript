@@ -19,9 +19,10 @@ or via the terminal run
 ``` minecraft ```
 
 how to use the minecraft_server command  
-make a new dir for your server  
-```mkdir YourDirName```  
-then inside that dir run   
+make a new directory for your server and go into it in a terminal run
+```mkdir YourDirectoryName```
+```cd YourDirectoryName ```
+then in a terminal run   
 ```minecraft_server```
 
 I have only tested on ubuntu but it should work on most linux distros that can normaly run minecraft
