@@ -2,13 +2,13 @@
 
 tmpfile=/tmp/minecrafttempfile.tmp
 downloadurl="https://minecraft.net/en-us/download/server"
-serverurl=`egrep -io 'https.*game\/(.*)\/server.jar' $tmpfile`
 loc=/opt/minecraft
 
 sudo mkdir $loc
 
 echo "Grabbing minecraft download page..."
 curl -s $downloadurl > $tmpfile
+serverurl=`egrep -io 'https.*game\/(.*)\/server.jar' $tmpfile`
 
 echo "Downloading server jar..."
 sudo wget -q -O $loc/minecraft_server.jar $serverurl 
