@@ -17,7 +17,7 @@ echo "Downloading client jar..."
 sudo wget -q -O $loc/Minecraft.jar https://s3.amazonaws.com/Minecraft.Download/launcher/Minecraft.jar
 
 echo "Downloading Minecraft.png"
-sudo wget -q -O minecraft.png https://raw.githubusercontent.com/keith-ferney/MinecraftScript/master/minecraft.png
+sudo wget -q -O $loc/minecraft.png https://raw.githubusercontent.com/keith-ferney/MinecraftScript/master/minecraft.png
 
 echo "Downloading desktop file"
 sudo wget -q -O /usr/share/applications/Minecraft.desktop https://raw.githubusercontent.com/keith-ferney/MinecraftScript/master/Minecraft.desktop
