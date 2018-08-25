@@ -6,7 +6,7 @@ A script I made that installs minecraft and minecraft server globaly on linux sy
   java (for minecraft)
 
   to install the dependencies on ubuntu you can run  
-  `sudo apt-get install curl default-jdk default-jre`
+  `sudo apt-get install curl openjdk-8-jre`
 
 ## to install minecraft run
 `curl -s https://raw.githubusercontent.com/keith-ferney/MinecraftScript/master/minecraftInstaller.sh | bash -s install`  
