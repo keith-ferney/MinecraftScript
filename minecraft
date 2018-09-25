@@ -1,4 +1,5 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # java -Xmx1024M -Xms512M -cp /Minecraft*.jar net.minecraft.LauncherFrame
-export LD_LIBRARY_PATH="/usr/lib/jvm/java-7-oracle/jre/lib/i386/"
+# export LD_LIBRARY_PATH="/usr/lib/jvm/java-7-oracle/jre/lib/i386/"
+# NOTE commented out the above line, as I'm using openjdk-8-jre
 java -jar /opt/minecraft/Minecraft*.jar
